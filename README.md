@@ -1,56 +1,103 @@
 # Linux Admin Toolkit
 
-A collection of Linux administration scripts written in Bash for DevOps learning.
+A collection of Linux administration utilities built using Bash scripting for DevOps and System Administration practice.
 
-## Features
+---
 
-- System Health Report
-- CPU Monitoring
-- Memory Monitoring
-- Disk Usage Monitor
-- Network Information
-- Running Process Monitor
-- Backup Manager
-- Directory Report
-- Uptime Checker
+# 📌 Overview
 
-## Technologies
+Linux Admin Toolkit is a menu-driven Bash project that combines multiple Linux administration tasks into one toolkit.
+
+The toolkit helps automate common system administration activities using simple shell scripts.
+
+---
+
+# 🚀 Modules Included
+
+✅ Uptime Checker
+
+Displays
+
+- System Uptime
+- Boot Time
+- Load Average
+
+---
+
+✅ Backup Manager
+
+Creates compressed backups of directories.
+
+Features
+
+- Source folder selection
+- Backup destination
+- Timestamped backup file
+
+---
+
+✅ Directory Report
+
+Generates
+
+- Number of files
+- Number of directories
+- Largest files
+- Disk usage
+
+---
+
+# 🛠 Technologies
 
 - Bash
-- Linux Commands
+- Linux
 - Shell Scripting
-- Git
-- GitHub
+- Terminal
 
-## Project Structure
+---
+
+# 📂 Project Structure
 
 ```
 linux-admin-toolkit/
 │
 ├── scripts/
-│   ├── toolkit.sh
-│   ├── system_health.sh
-│   ├── cpu_monitor.sh
-│   ├── memory_monitor.sh
-│   ├── disk_monitor.sh
-│   ├── network_info.sh
-│   ├── process_monitor.sh
+│   ├── uptime_checker.sh
 │   ├── backup_manager.sh
-│   ├── directory_report.sh
-│   └── uptime_checker.sh
+│   └── directory_report.sh
 │
 ├── README.md
 └── LICENSE
 ```
 
-## How to Run
+---
 
-```bash
-chmod +x scripts/*.sh
-cd scripts
-./toolkit.sh
-```
+# 🎯 Features
 
-## Author
+- Interactive menu
+- Bash automation
+- Linux commands integration
+- Easy to use
+- Beginner friendly
 
-Rohan Tundalwar
+---
+
+# 📚 Commands Used
+
+- uptime
+- who
+- df
+- du
+- tar
+- find
+- ls
+- awk
+- grep
+
+---
+
+# 👨‍💻 Author
+
+**Rohan Tundalwar**
+
+DevOps Learner
