@@ -1,4 +1,14 @@
-# Linux Admin Toolkit
+## 📸 Screenshots
+
+### Main Menu
+
+![Main Menu](screenshots/main-menu.png)
+
+---
+
+### System Health Report
+
+![System Health](screenshots/output.png)# Linux Admin Toolkit
 
 A collection of Linux administration utilities built using Bash scripting for DevOps and System Administration practice.
 
