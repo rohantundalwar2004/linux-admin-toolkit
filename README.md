@@ -1,108 +1,133 @@
-## 📸 Screenshots
+# 🐧 Linux Admin Toolkit
 
-### Main Menu
+A Bash-based Linux Administration Toolkit that automates common system administration tasks for Linux and DevOps practice.
+
+![Linux](https://img.shields.io/badge/Linux-Bash-green)
+![Shell](https://img.shields.io/badge/Shell-Scripting-blue)
+![Git](https://img.shields.io/badge/Git-Version_Control-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+---
+
+## 📷 Main Menu
 
 ![Main Menu](screenshots/main-menu.png)
 
 ---
 
-### System Health Report
-
-![System Health](screenshots/output.png)# Linux Admin Toolkit
-
-A collection of Linux administration utilities built using Bash scripting for DevOps and System Administration practice.
-
----
-
 # 📌 Overview
 
-Linux Admin Toolkit is a menu-driven Bash project that combines multiple Linux administration tasks into one toolkit.
+Linux Admin Toolkit is a menu-driven Bash project that combines multiple Linux administration utilities into one toolkit.
 
-The toolkit helps automate common system administration activities using simple shell scripts.
+It helps automate common Linux system administration tasks while improving Bash scripting skills required for DevOps Engineers and Linux Administrators.
 
 ---
 
 # 🚀 Modules Included
 
-✅ Uptime Checker
-
-Displays
-
-- System Uptime
-- Boot Time
-- Load Average
-
----
-
-✅ Backup Manager
-
-Creates compressed backups of directories.
-
-Features
-
-- Source folder selection
-- Backup destination
-- Timestamped backup file
+- ✅ System Health Report
+- ✅ CPU Monitor
+- ✅ Memory Monitor
+- ✅ Disk Monitor
+- ✅ Network Information
+- ✅ Running Process Monitor
+- ✅ Backup Manager
+- ✅ Directory Report
+- ✅ Uptime Checker
 
 ---
 
-✅ Directory Report
+# 🛠 Technologies Used
 
-Generates
-
-- Number of files
-- Number of directories
-- Largest files
-- Disk usage
-
----
-
-# 🛠 Technologies
-
-- Bash
-- Linux
+- Bash Shell Scripting
+- Linux Commands
 - Shell Scripting
-- Terminal
+- Git
+- GitHub
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 linux-admin-toolkit/
 │
 ├── scripts/
-│   ├── uptime_checker.sh
+│   ├── toolkit.sh
+│   ├── system_health.sh
+│   ├── cpu_monitor.sh
+│   ├── memory_monitor.sh
+│   ├── disk_monitor.sh
+│   ├── network_info.sh
+│   ├── process_monitor.sh
 │   ├── backup_manager.sh
-│   └── directory_report.sh
+│   ├── directory_report.sh
+│   └── uptime_checker.sh
+│
+├── screenshots/
+│   ├── main-menu.png
+│   └── output.png
 │
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
 ---
 
-# 🎯 Features
+# ▶️ How to Run
 
-- Interactive menu
-- Bash automation
-- Linux commands integration
-- Easy to use
-- Beginner friendly
+```bash
+chmod +x scripts/*.sh
+cd scripts
+./toolkit.sh
+```
 
 ---
 
-# 📚 Commands Used
+# 📷 Example Output
 
-- uptime
-- who
-- df
-- du
-- tar
-- find
-- ls
-- awk
-- grep
+### System Health Report
+
+![System Health Report](screenshots/output.png)
+
+---
+
+# ✨ Features
+
+- Interactive menu-driven interface
+- Beginner-friendly Bash scripts
+- Real-time system monitoring
+- Modular script architecture
+- Easy to extend with new utilities
+- Lightweight and fast
+
+---
+
+# 🔮 Future Improvements
+
+- Email Alert System
+- Log File Generation
+- Cron Job Integration
+- Colored Terminal Output
+- System Performance Dashboard
+- Disk Usage Graph
+- Service Monitoring
+- User Management Module
+
+---
+
+# 📌 Release
+
+**Current Version:** **v1.0**
+
+Release Notes:
+- Initial stable release
+- Added 9 Linux administration modules
+- Professional README
+- Screenshots
+- GitHub Release
+- MIT License
 
 ---
 
@@ -110,4 +135,6 @@ linux-admin-toolkit/
 
 **Rohan Tundalwar**
 
-DevOps Learner
+
+Aspiring DevOps Engineer | Linux Administrator | Cloud Enthusiast
+
